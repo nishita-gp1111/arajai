@@ -614,6 +614,10 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .menu-grid .menu-item:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
+
   .info-layout {
     display: grid;
     grid-template-columns: 0.82fr 1.18fr;
